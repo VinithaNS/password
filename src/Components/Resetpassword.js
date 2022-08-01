@@ -43,7 +43,7 @@ function Resetpassword() {
       });
   
     function reset(values) {
-      fetch(`https://ilavenilforgetpassword.herokuapp.com/resetpassword`, {
+      fetch(`https://vinithaneyashreeforgetpassword.herokuapp.com/resetpassword`, {
         method: "POST",
         body: JSON.stringify(values),
         headers: { "Content-Type": "application/json" },
